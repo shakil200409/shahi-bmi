@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Heading -->
+        <h1>BMI Calculator</h1>
+
+        <!-- Input Form -->
+        <form class="calculator">
+            <div>
+                <label for="weight">Weight (KG)</label>
+                <input type="number" id="weight" min="0" step="0.01">
+            </div>
+
+            <div>
+                <label for="height">Height (CM)</label>
+                <input type="number" id="height" min="0" step="0.01">
+            </div>
+
+            <!-- Buttons -->
+            <div>
+                <button type="reset">reset</button>
+                <button type="submit">submit</button>
+            </div>
+        </form>
+
+        <!-- Result Section -->
+        <section class="output">
+            <h3>Your BMI is</h3>
+            <p id="bmi">0</p>
+            <p id="desc">N/A</p>
+        </section>
+
+        <!-- Footer section -->
+        <footer>Mehrab Uddin Sahi (Roll: 577914)</footer>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
